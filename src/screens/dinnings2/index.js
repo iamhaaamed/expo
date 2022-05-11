@@ -1,0 +1,1 @@
+export { default as Dinnings2 } from './Dinnings2';

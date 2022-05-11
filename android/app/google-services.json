@@ -1,0 +1,62 @@
+{
+    "project_info": {
+        "project_number": "186984679862",
+        "project_id": "aps-genueshotel-dev",
+        "storage_bucket": "aps-genueshotel-dev.appspot.com"
+    },
+    "client": [
+        {
+            "client_info": {
+                "mobilesdk_app_id": "1:186984679862:android:1126cfcb15cdf121d35917",
+                "android_client_info": {
+                    "package_name": "io.apsy.genushotel"
+                }
+            },
+            "oauth_client": [
+                {
+                    "client_id": "186984679862-r19ju4gl8jtc45soc18tp1v49trk5tsq.apps.googleusercontent.com",
+                    "client_type": 1,
+                    "android_info": {
+                        "package_name": "io.apsy.genushotel",
+                        "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+                    }
+                },
+                {
+                    "client_id": "186984679862-rd6uureoac8hsi0q8mb8h5k2ghgu1mcc.apps.googleusercontent.com",
+                    "client_type": 1,
+                    "android_info": {
+                        "package_name": "io.apsy.genushotel",
+                        "certificate_hash": "67c11b72625468c9b69b06e6fcce2717ed468ecf"
+                    }
+                },
+                {
+                    "client_id": "186984679862-1v9gqbbag7uq4lehipj1eiu9nkr5g726.apps.googleusercontent.com",
+                    "client_type": 3
+                }
+            ],
+            "api_key": [
+                {
+                    "current_key": "AIzaSyCG1muVFG5hroeXg0tRp5UU0RfbzEstblM"
+                }
+            ],
+            "services": {
+                "appinvite_service": {
+                    "other_platform_oauth_client": [
+                        {
+                            "client_id": "186984679862-1v9gqbbag7uq4lehipj1eiu9nkr5g726.apps.googleusercontent.com",
+                            "client_type": 3
+                        },
+                        {
+                            "client_id": "186984679862-84258o7617489mh1dr76ssv7m7rika0a.apps.googleusercontent.com",
+                            "client_type": 2,
+                            "ios_info": {
+                                "bundle_id": "io.apsy.genushotel"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ],
+    "configuration_version": "1"
+}

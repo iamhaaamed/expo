@@ -1,0 +1,1 @@
+export { default as Paymenttermcondition2 } from './Paymenttermcondition2';

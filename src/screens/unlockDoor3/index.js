@@ -1,0 +1,1 @@
+export { default as UnlockDoor3 } from './UnlockDoor3';

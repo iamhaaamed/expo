@@ -1,0 +1,1 @@
+export { default as Onboarding2 } from './Onboarding2';

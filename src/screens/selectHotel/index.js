@@ -1,0 +1,1 @@
+export {default as SelectHotel} from './SelectHotel';

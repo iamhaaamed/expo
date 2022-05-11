@@ -1,4 +1,4 @@
-package com.chattest.newarchitecture.modules;
+package io.apsy.genushotel.newarchitecture.modules;
 
 import com.facebook.jni.HybridData;
 import com.facebook.react.ReactPackage;

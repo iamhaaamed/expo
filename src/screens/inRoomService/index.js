@@ -1,0 +1,1 @@
+export { default as InRoomService } from './InRoomService';

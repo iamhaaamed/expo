@@ -1,0 +1,27 @@
+export default function () {
+    return {
+        image9557: require('assets/images/image9557.png'),
+        image5127: require('assets/images/image5127.jpg'),
+        image2905: require('assets/images/image2905.jpeg'),
+        image2482: require('assets/images/image2482.jpg'),
+        image5383: require('assets/images/image5383.png'),
+        image4662: require('assets/images/image4662.jpeg'),
+        bath: require('assets/images/bath.svg'),
+        bedding: require('assets/images/bedding.svg'),
+        towels: require('assets/images/towels.svg'),
+        valet: require('assets/images/valet.svg'),
+        arrow_right_thin: require('assets/images/arrow-right-thin.svg'),
+        avatar: require('assets/images/avatar.jpg'),
+        closeic: require('assets/images/closeic.png'),
+        noImage: require('assets/images/file-image-plus-outline.svg'),
+        book_open: require('assets/images/book-open-outline.svg'),
+        silverware: require('assets/images/silverware-fork-knife.svg'),
+        dumbbell: require('assets/images/dumbbell.svg'),
+        spa_outline: require('assets/images/spa-outline.svg'),
+        bank_outline: require('assets/images/bank-outline.svg'),
+        subway_variant: require('assets/images/subway-variant.svg'),
+        wheelchair: require('assets/images/wheelchair-accessibility.svg'),
+        home_section: require('assets/images/home_section.png'),
+        splash: require('assets/images/splash.png'),
+    };
+}

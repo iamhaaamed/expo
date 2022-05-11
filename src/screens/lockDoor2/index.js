@@ -1,0 +1,1 @@
+export { default as LockDoor2 } from './LockDoor2';

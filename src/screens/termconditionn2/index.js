@@ -1,0 +1,1 @@
+export { default as Termconditionn2 } from './Termconditionn2';

@@ -1,4 +1,4 @@
-package com.chattest.newarchitecture;
+package io.apsy.genushotel.newarchitecture;
 
 import android.app.Application;
 import androidx.annotation.NonNull;
@@ -19,9 +19,9 @@ import com.facebook.react.fabric.CoreComponentsRegistry;
 import com.facebook.react.fabric.EmptyReactNativeConfig;
 import com.facebook.react.fabric.FabricJSIModuleProvider;
 import com.facebook.react.uimanager.ViewManagerRegistry;
-import com.chattest.BuildConfig;
-import com.chattest.newarchitecture.components.MainComponentsRegistry;
-import com.chattest.newarchitecture.modules.MainApplicationTurboModuleManagerDelegate;
+import io.apsy.genushotel.BuildConfig;
+import io.apsy.genushotel.newarchitecture.components.MainComponentsRegistry;
+import io.apsy.genushotel.newarchitecture.modules.MainApplicationTurboModuleManagerDelegate;
 import java.util.ArrayList;
 import java.util.List;
 

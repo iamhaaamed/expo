@@ -1,4 +1,4 @@
-package com.chattest.newarchitecture.components;
+package io.apsy.genushotel.newarchitecture.components;
 
 import com.facebook.jni.HybridData;
 import com.facebook.proguard.annotations.DoNotStrip;

@@ -1,0 +1,1 @@
+export { default as Forgotpassword1 } from './Forgotpassword1';

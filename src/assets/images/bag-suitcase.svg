@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="14" height="20" viewBox="0 0 14 20">
+  <g id="Icon.format_align_bag-suitcase" transform="translate(-91 -595)">
+    <path id="bag-suitcase" d="M17.03,6A1.98,1.98,0,0,1,19,8V19a1.974,1.974,0,0,1-1.97,2A1,1,0,0,1,16,22a1.016,1.016,0,0,1-1-1H9a1.016,1.016,0,0,1-1,1,1,1,0,0,1-1.03-1A1.974,1.974,0,0,1,5,19V8A1.98,1.98,0,0,1,6.97,6H9V3a.99.99,0,0,1,1-1h4a.99.99,0,0,1,1,1V6h2.03M13.5,6V3.5h-3V6h3M8,9v9H9.5V9H8m6.5,0v9H16V9H14.5M11.25,9v9h1.5V9Z" transform="translate(86 593)" fill="#c5c5c5"/>
+  </g>
+</svg>

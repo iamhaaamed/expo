@@ -1,4 +1,4 @@
-package com.chattest;
+package io.apsy.genushotel;
 
 import android.os.Build;
 import android.os.Bundle;

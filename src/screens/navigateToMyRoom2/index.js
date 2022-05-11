@@ -1,0 +1,1 @@
+export { default as NavigateToMyRoom2 } from './NavigateToMyRoom2';
