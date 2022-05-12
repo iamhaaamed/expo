@@ -1,4 +1,4 @@
-import MaterialCommunityIcon from "@expo/vector-icons/MaterialCommunityIcons";
+import MaterialCommunityIcon from "react-native-vector-icons/MaterialCommunityIcons";
 import useTheme from "hooks/useTheme";
 import React from "react";
 import { StyleSheet } from "react-native";
@@ -21,11 +21,11 @@ const MIcon = (props) => {
 
   return (
     <Icon_Component
-      {...props}
       name={Icon_Name}
       style={[styles.default, style ?? {}]}
       size={size ?? FONT_SIZE.icon}
       color={color ?? COLORS.text}
+      {...props}
     />
   );
 };

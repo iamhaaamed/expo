@@ -26,7 +26,6 @@
     "generate:ts": "graphql-codegen --config codegen.yml"
   },
   "dependencies": {
-    "@expo/vector-icons": "^13.0.0",
     "@ptomasroos/react-native-multi-slider": "^2.2.2",
     "@react-native-async-storage/async-storage": "^1.17.4",
     "@react-native-community/checkbox": "^0.5.12",
@@ -43,7 +42,6 @@
     "@react-navigation/native": "^6.0.10",
     "@react-navigation/stack": "^6.2.1",
     "axios": "^0.27.2",
-    "botframework-directlinejs": "^0.15.1",
     "color": "^4.2.3",
     "expo": "~45.0.0",
     "expo-splash-screen": "~0.15.1",
@@ -94,6 +92,7 @@
     "react-native-swiper": "^1.6.0",
     "react-native-tab-view": "^3.1.1",
     "react-native-uuid": "^2.0.1",
+    "react-native-vector-icons": "^9.1.0",
     "react-native-video": "^5.2.0",
     "react-native-web": "0.17.7",
     "react-query": "^3.39.0",

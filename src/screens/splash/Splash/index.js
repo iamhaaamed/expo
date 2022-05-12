@@ -14,8 +14,6 @@ const Splash = createScreen(
       useTheme();
     const { isLoading: SignInLoading, mutate: SignInMutate } = useSignIn();
     useEffect(() => {
-      navigation.replace("AppTab");
-
       (async () => {
         let user = await GetData("USER_INFO");
         if (!user) {

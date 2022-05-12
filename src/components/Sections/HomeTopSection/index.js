@@ -8,8 +8,6 @@ import {
 import React from "react";
 import useTheme from "hooks/useTheme";
 import { View, StyleSheet, TouchableOpacity } from "react-native";
-import MaterialCommunityIcon from "@expo/vector-icons/MaterialCommunityIcons";
-
 import { scale, verticalScale } from "utils";
 const HomeTopSection = ({ name = "Dear", nights = "0", navigation }) => {
   const { COMMON, IMAGES } = useTheme();
@@ -33,8 +31,7 @@ const HomeTopSection = ({ name = "Dear", nights = "0", navigation }) => {
           }}
         >
           <MText textStyle={COMMON.NormalText}>{nights + " Nights"}</MText>
-          <MaterialCommunityIcon name={"home"} />
-          {/* <MIcon name={'chevron-right'} size={30} /> */}
+          <MIcon name={"chevron-right"} size={30} />
         </View>
       </TouchableOpacity>
     </View>

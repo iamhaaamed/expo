@@ -104,111 +104,111 @@ export const APP_SCREENS = [
     tabBarLabelStyle: { backgroundColor: "red" },
   },
 
-  //   {
-  //     name: "Book",
-  //     title: "Book",
-  //     iconName: "calendar-blank",
-  //     focusIconName: "calendar-blank",
-  //     screens: [
-  //       {
-  //         name: "Book",
-  //         Component: MakeReservation,
-  //         options: {
-  //           headerShown: false,
-  //         },
-  //       },
-  //     ],
+  {
+    name: "Book",
+    title: "Book",
+    iconName: "calendar-blank",
+    focusIconName: "calendar-blank",
+    screens: [
+      {
+        name: "Book",
+        Component: MakeReservation,
+        options: {
+          headerShown: false,
+        },
+      },
+    ],
 
-  //     iconOptions: {
-  //       color: COLORS.Color707,
-  //       size: 24,
-  //     },
-  //     focusIconOptions: {
-  //       color: "#121212",
-  //       size: 24,
-  //     },
-  //   },
+    iconOptions: {
+      color: COLORS.Color707,
+      size: 24,
+    },
+    focusIconOptions: {
+      color: "#121212",
+      size: 24,
+    },
+  },
 
-  //   {
-  //     name: "Upcoming",
-  //     title: "Upcoming",
-  //     iconName: "bag-carry-on", //bag-suitcase
-  //     focusIconName: "bag-carry-on",
-  //     screens: [
-  //       {
-  //         name: "Upcomming Reservation",
-  //         Component: UpcommingReservation,
-  //       },
-  //     ],
+  {
+    name: "Upcoming",
+    title: "Upcoming",
+    iconName: "bag-carry-on", //bag-suitcase
+    focusIconName: "bag-carry-on",
+    screens: [
+      {
+        name: "Upcomming Reservation",
+        Component: UpcommingReservation,
+      },
+    ],
 
-  //     iconOptions: {
-  //       color: COLORS.Color707,
-  //       size: 24,
-  //     },
-  //     focusIconOptions: {
-  //       color: "#121212",
-  //       size: 24,
-  //     },
-  //   },
+    iconOptions: {
+      color: COLORS.Color707,
+      size: 24,
+    },
+    focusIconOptions: {
+      color: "#121212",
+      size: 24,
+    },
+  },
 
-  //   {
-  //     name: "Recommend",
-  //     title: "Recommend",
-  //     iconName: "office-building",
-  //     focusIconName: "office-building",
-  //     screens: [
-  //       {
-  //         name: "Recommendation",
-  //         Component: Recommendation,
-  //         title: "Recommendation",
-  //       },
-  //     ],
+  {
+    name: "Recommend",
+    title: "Recommend",
+    iconName: "office-building",
+    focusIconName: "office-building",
+    screens: [
+      {
+        name: "Recommendation",
+        Component: Recommendation,
+        title: "Recommendation",
+      },
+    ],
 
-  //     iconOptions: {
-  //       color: COLORS.Color707,
-  //       size: 24,
-  //     },
-  //     focusIconOptions: {
-  //       color: "#121212",
-  //       size: 24,
-  //     },
-  //   },
+    iconOptions: {
+      color: COLORS.Color707,
+      size: 24,
+    },
+    focusIconOptions: {
+      color: "#121212",
+      size: 24,
+    },
+  },
 
-  //   {
-  //     name: "selected",
-  //     title: "Account",
-  //     iconName: "account-outline",
-  //     focusIconName: "account-outline",
-  //     screens: [
-  //       {
-  //         name: "Profile",
-  //         Component: Profile,
-  //         options: {
-  //           headerShown: false,
-  //         },
-  //       },
-  //     ],
+  {
+    name: "selected",
+    title: "Account",
+    iconName: "account-outline",
+    focusIconName: "account-outline",
+    screens: [
+      {
+        name: "Profile",
+        Component: Profile,
+        options: {
+          headerShown: false,
+        },
+      },
+    ],
 
-  //     iconOptions: {
-  //       color: COLORS.Color707,
-  //       size: 24,
-  //     },
-  //     focusIconOptions: {
-  //       color: "#121212",
-  //       size: 24,
-  //     },
-  //   }
+    iconOptions: {
+      color: COLORS.Color707,
+      size: 24,
+    },
+    focusIconOptions: {
+      color: "#121212",
+      size: 24,
+    },
+  },
 ];
 
 export const DEFAULT_TABBAR_OPTIONS = {
   keyboardHidesTabBar: true,
 };
 export const ROOT_SCREENS = [
-  // {
-  //     name: 'ProfilesettingsPaymentInformation2',
-  //     Component: ProfilesettingsPaymentInformation2,
-  //     title: 'Payment Information',
-  // },
+  {
+    name: "ProfilesettingsPaymentInformation2",
+    Component: ProfilesettingsPaymentInformation2,
+    title: "Payment Information",
+  },
   {
     name: "Splash",
     Component: Splash,
@@ -216,445 +216,445 @@ export const ROOT_SCREENS = [
       headerShown: false,
     },
   },
-  // {
-  //     name: 'LockDoor3',
-  //     Component: LockDoor3,
-  //     options: {
-  //         headerShown: false,
-  //     },
-  // },
-  // {
-  //     name: 'SelectHotel',
-  //     Component: SelectHotel,
-  //     title: '',
-  //     hasLike: true,
-  //     options: {
-  //         headerShown: false,
-  //     },
-  // },
-  // {
-  //     name: 'DatesCalendar',
-  //     title: 'Dates',
-  //     Component: DatesCalendar,
-  //     isDarkMode: true,
-  // },
-  // {
-  //     name: 'CurrentHotel',
-  //     title: '',
-  //     Component: CurrentHotel,
-  // },
-  // {
-  //     name: 'HomeTab',
-  //     Component: HomeTab,
-  //     options: {
-  //         headerShown: false,
-  //     },
-  // },
-  // {
-  //     name: 'SignupDone',
-  //     Component: SignUpDone,
-  //     options: {
-  //         headerShown: false,
-  //     },
-  // },
-  // {
-  //     name: 'UpcomingReservationHotel',
-  //     Component: UpcomingReservationHotel,
-  // },
-  // // {
-  // //     name: 'Dates',
-  // //     Component: Dates,
-  // //     options: {
-  // //         headerShown: false,
-  // //     },
-  // // },
-
-  // {
-  //     name: 'Dinningfeaturelist',
-  //     Component: Dinningfeaturelist,
-  //     title: 'Dinning',
-  // },
-
-  // {
-  //     name: 'Signupstep2',
-  //     Component: Signupstep2,
-  //     title: 'Step one',
-  // },
-
-  // {
-  //     name: 'Paymenttermcondition2',
-  //     Component: Paymenttermcondition2,
-  //     title: 'Terms & Conditions',
-  // },
+  {
+    name: "LockDoor3",
+    Component: LockDoor3,
+    options: {
+      headerShown: false,
+    },
+  },
+  {
+    name: "SelectHotel",
+    Component: SelectHotel,
+    title: "",
+    hasLike: true,
+    options: {
+      headerShown: false,
+    },
+  },
+  {
+    name: "DatesCalendar",
+    title: "Dates",
+    Component: DatesCalendar,
+    isDarkMode: true,
+  },
+  {
+    name: "CurrentHotel",
+    title: "",
+    Component: CurrentHotel,
+  },
+  {
+    name: "HomeTab",
+    Component: HomeTab,
+    options: {
+      headerShown: false,
+    },
+  },
+  {
+    name: "SignupDone",
+    Component: SignUpDone,
+    options: {
+      headerShown: false,
+    },
+  },
+  {
+    name: "UpcomingReservationHotel",
+    Component: UpcomingReservationHotel,
+  },
   // {
   //     name: 'Dates',
-  //     Component: DatesCalendar,
-  //     title: 'Dates',
-  // },
-
-  // {
-  //     name: 'Paymenttermcondition',
-  //     Component: Paymenttermcondition,
-  //     title: 'Terms & Conditions',
-  // },
-
-  // {
-  //     name: 'Dates3',
-  //     Component: Dates3,
-  //     isDarkMode: true,
-  //     title: 'Room & Guests',
-  // },
-
-  // {
-  //     name: 'InRoomService',
-  //     Component: InRoomService,
-  //     title: 'Requests',
-  // },
-
-  // {
-  //     name: 'UpcommingReservationcheckin',
-  //     Component: UpcommingReservationcheckin,
-  //     title: 'Check In',
-  // },
-
-  // {
-  //     name: 'LockDoor2',
-  //     Component: LockDoor2,
+  //     Component: Dates,
   //     options: {
   //         headerShown: false,
   //     },
   // },
 
-  // {
-  //     name: 'ProfilesettingsPersonalInformation',
-  //     Component: ProfilesettingsPersonalInformation,
-  //     title: 'Personal Information',
-  // },
+  {
+    name: "Dinningfeaturelist",
+    Component: Dinningfeaturelist,
+    title: "Dinning",
+  },
 
-  // {
-  //     name: 'ProfileRoomPreferenceroomtype',
-  //     Component: ProfileRoomPreferenceroomtype,
-  //     title: 'Room Type',
-  // },
+  {
+    name: "Signupstep2",
+    Component: Signupstep2,
+    title: "Step one",
+  },
 
-  // {
-  //     name: 'UnlockDoor',
-  //     Component: UnlockDoor,
-  //     title: 'Unlock Door',
-  // },
+  {
+    name: "Paymenttermcondition2",
+    Component: Paymenttermcondition2,
+    title: "Terms & Conditions",
+  },
+  {
+    name: "Dates",
+    Component: DatesCalendar,
+    title: "Dates",
+  },
 
-  // {
-  //     name: 'UpcommingReservationmanagereservations',
-  //     Component: UpcommingReservationmanagereservations,
-  //     title: 'Manage Reservation',
-  //     isDarkMode: true,
-  // },
+  {
+    name: "Paymenttermcondition",
+    Component: Paymenttermcondition,
+    title: "Terms & Conditions",
+  },
 
-  // {
-  //     name: 'ProfileRoomPreference',
-  //     Component: ProfileRoomPreference,
-  //     title: 'Room Preference',
-  // },
+  {
+    name: "Dates3",
+    Component: Dates3,
+    isDarkMode: true,
+    title: "Room & Guests",
+  },
 
-  // {
-  //     name: 'Forgotpassword',
-  //     title: 'Forgot password',
-  //     Component: Forgotpassword,
-  // },
+  {
+    name: "InRoomService",
+    Component: InRoomService,
+    title: "Requests",
+  },
 
-  // {
-  //     name: 'Onboarding2',
-  //     Component: Onboarding2,
-  //     options: {
-  //         headerShown: false,
-  //     },
-  // },
+  {
+    name: "UpcommingReservationcheckin",
+    Component: UpcommingReservationcheckin,
+    title: "Check In",
+  },
 
-  // {
-  //     name: 'ParkingTransit',
-  //     Component: ParkingTransit,
-  //     title: 'Parking& Transit',
-  // },
+  {
+    name: "LockDoor2",
+    Component: LockDoor2,
+    options: {
+      headerShown: false,
+    },
+  },
 
-  // {
-  //     name: 'Termconditionn2',
-  //     Component: Termconditionn2,
-  //     title: 'Terms& Conditions',
-  // },
+  {
+    name: "ProfilesettingsPersonalInformation",
+    Component: ProfilesettingsPersonalInformation,
+    title: "Personal Information",
+  },
 
-  // {
-  //     name: 'SelectRoomroomdetails',
-  //     Component: SelectRoomroomdetails,
-  //     title: 'Room Details',
-  // },
+  {
+    name: "ProfileRoomPreferenceroomtype",
+    Component: ProfileRoomPreferenceroomtype,
+    title: "Room Type",
+  },
 
-  // {
-  //     name: 'LockDoor',
-  //     Component: LockDoor,
-  //     title: 'Lock Door',
-  // },
+  {
+    name: "UnlockDoor",
+    Component: UnlockDoor,
+    title: "Unlock Door",
+  },
 
-  // {
-  //     name: 'Profile',
-  //     Component: Profile,
-  //     options: {
-  //         headerShown: false,
-  //     },
-  // },
+  {
+    name: "UpcommingReservationmanagereservations",
+    Component: UpcommingReservationmanagereservations,
+    title: "Manage Reservation",
+    isDarkMode: true,
+  },
 
-  // {
-  //     name: 'InRoomService3',
-  //     Component: InRoomService3,
-  //     title: 'My Request',
-  // },
+  {
+    name: "ProfileRoomPreference",
+    Component: ProfileRoomPreference,
+    title: "Room Preference",
+  },
 
-  // {
-  //     name: 'Dates4',
-  //     Component: Dates4,
-  //     title: 'Special Rates & Points',
-  //     isDarkMode: true,
-  // },
+  {
+    name: "Forgotpassword",
+    title: "Forgot password",
+    Component: Forgotpassword,
+  },
 
-  // {
-  //     name: 'Attractions',
-  //     Component: Attractions,
-  // },
+  {
+    name: "Onboarding2",
+    Component: Onboarding2,
+    options: {
+      headerShown: false,
+    },
+  },
 
-  // {
-  //     name: 'Fitness',
-  //     Component: Fitness,
-  // },
+  {
+    name: "ParkingTransit",
+    Component: ParkingTransit,
+    title: "Parking& Transit",
+  },
 
-  // {
-  //     name: 'Profilesettings',
-  //     Component: Profilesettings,
-  //     title: 'Settings',
-  // },
+  {
+    name: "Termconditionn2",
+    Component: Termconditionn2,
+    title: "Terms& Conditions",
+  },
 
-  // {
-  //     name: 'Dinnings2',
-  //     Component: Dinnings2,
-  //     title: 'Make A Reservation',
-  // },
-  // {
-  //     name: 'Dinnings3',
-  //     Component: Dinnings3,
-  //     title: 'Make A Reservation',
-  // },
+  {
+    name: "SelectRoomroomdetails",
+    Component: SelectRoomroomdetails,
+    title: "Room Details",
+  },
 
-  // {
-  //     name: 'Spa',
-  //     Component: Spa,
-  //     title: 'Spa',
-  // },
+  {
+    name: "LockDoor",
+    Component: LockDoor,
+    title: "Lock Door",
+  },
 
-  // {
-  //     name: 'Paymentmethod',
-  //     Component: Paymentmethod,
-  //     title: 'Payment Method',
-  // },
+  {
+    name: "Profile",
+    Component: Profile,
+    options: {
+      headerShown: false,
+    },
+  },
 
-  // {
-  //     name: 'SelectRoomReviewReservation',
-  //     Component: SelectRoomReviewReservation,
-  //     title: 'Review Reservation',
-  // },
+  {
+    name: "InRoomService3",
+    Component: InRoomService3,
+    title: "My Request",
+  },
 
-  // {
-  //     name: 'UnlockDoor4',
-  //     Component: UnlockDoor4,
-  //     options: {
-  //         headerShown: false,
-  //     },
-  // },
+  {
+    name: "Dates4",
+    Component: Dates4,
+    title: "Special Rates & Points",
+    isDarkMode: true,
+  },
 
-  // {
-  //     name: 'UnlockDoor2',
-  //     Component: UnlockDoor2,
-  //     title: 'How It Work',
-  // },
+  {
+    name: "Attractions",
+    Component: Attractions,
+  },
 
-  // {
-  //     name: 'UnlockDoor3',
-  //     Component: UnlockDoor3,
-  //     options: {
-  //         headerShown: false,
-  //     },
-  // },
+  {
+    name: "Fitness",
+    Component: Fitness,
+  },
 
-  // {
-  //     name: 'ProfileMemberSupport',
-  //     Component: ProfileMemberSupport,
-  //     title: 'Member Support',
-  // },
+  {
+    name: "Profilesettings",
+    Component: Profilesettings,
+    title: "Settings",
+  },
 
-  // {
-  //     name: 'ProfileRoomPreferenceroomlocaton',
-  //     Component: ProfileRoomPreferenceroomlocaton,
-  //     title: 'Room Location',
-  // },
+  {
+    name: "Dinnings2",
+    Component: Dinnings2,
+    title: "Make A Reservation",
+  },
+  {
+    name: "Dinnings3",
+    Component: Dinnings3,
+    title: "Make A Reservation",
+  },
 
-  // {
-  //     name: 'NavigateToMyRoom',
-  //     Component: NavigateToMyRoom,
-  //     options: {
-  //         headerShown: false,
-  //     },
-  // },
+  {
+    name: "Spa",
+    Component: Spa,
+    title: "Spa",
+  },
 
-  // {
-  //     name: 'Profilesettingschangepassword',
-  //     Component: Profilesettingschangepassword,
-  //     title: 'Change Password',
-  // },
-  // {
-  //     name: 'ProfileSettingPaymentInformation',
-  //     Component: ProfileSettingPaymentInformation,
-  //     title: 'Payment Information',
-  // },
-  // {
-  //     name: 'Checkout1',
-  //     Component: Checkout1,
-  //     title: 'Check Out',
-  // },
+  {
+    name: "Paymentmethod",
+    Component: Paymentmethod,
+    title: "Payment Method",
+  },
 
-  // {
-  //     name: 'SelectRoomFilterYourResults',
-  //     Component: SelectRoomFilterYourResults,
-  //     title: 'Preference',
-  // },
+  {
+    name: "SelectRoomReviewReservation",
+    Component: SelectRoomReviewReservation,
+    title: "Review Reservation",
+  },
 
-  // {
-  //     name: 'UserSignin',
-  //     Component: UserSignin,
-  //     options: {
-  //         headerShown: false,
-  //     },
-  // },
+  {
+    name: "UnlockDoor4",
+    Component: UnlockDoor4,
+    options: {
+      headerShown: false,
+    },
+  },
 
-  // {
-  //     name: 'Accessibility',
-  //     Component: Accessibility,
-  //     title: 'Accessibility',
-  // },
+  {
+    name: "UnlockDoor2",
+    Component: UnlockDoor2,
+    title: "How It Work",
+  },
 
-  // {
-  //     name: 'SelectRoom',
-  //     Component: SelectRoom,
-  //     title: ' ',
-  // },
+  {
+    name: "UnlockDoor3",
+    Component: UnlockDoor3,
+    options: {
+      headerShown: false,
+    },
+  },
 
-  // {
-  //     name: 'ProfileProgramBenefits',
-  //     Component: ProfileProgramBenefits,
-  //     title: 'Program Benefits',
-  // },
+  {
+    name: "ProfileMemberSupport",
+    Component: ProfileMemberSupport,
+    title: "Member Support",
+  },
 
-  // {
-  //     name: 'InRoomService2',
-  //     Component: InRoomService2,
-  //     title: 'Bath Amenties',
-  // },
+  {
+    name: "ProfileRoomPreferenceroomlocaton",
+    Component: ProfileRoomPreferenceroomlocaton,
+    title: "Room Location",
+  },
 
-  // {
-  //     name: 'Dates2',
-  //     Component: Dates2,
-  //     isDarkMode: true,
-  //     title: '',
-  // },
+  {
+    name: "NavigateToMyRoom",
+    Component: NavigateToMyRoom,
+    options: {
+      headerShown: false,
+    },
+  },
 
-  // {
-  //     name: 'Onboarding',
-  //     title: '',
-  //     Component: Onboarding,
-  //     options: {
-  //         headerShown: false,
-  //     },
-  // },
+  {
+    name: "Profilesettingschangepassword",
+    Component: Profilesettingschangepassword,
+    title: "Change Password",
+  },
+  {
+    name: "ProfileSettingPaymentInformation",
+    Component: ProfileSettingPaymentInformation,
+    title: "Payment Information",
+  },
+  {
+    name: "Checkout1",
+    Component: Checkout1,
+    title: "Check Out",
+  },
 
-  // {
-  //     name: 'Dinnings',
-  //     title: 'dinning',
-  //     Component: Dinnings,
-  // },
+  {
+    name: "SelectRoomFilterYourResults",
+    Component: SelectRoomFilterYourResults,
+    title: "Preference",
+  },
 
-  // {
-  //     name: 'NavigateToMyRoom2',
-  //     title: 'Navigate To My Room',
-  //     Component: NavigateToMyRoom2,
-  // },
+  {
+    name: "UserSignin",
+    Component: UserSignin,
+    options: {
+      headerShown: false,
+    },
+  },
 
-  // {
-  //     name: 'Signupstep1',
-  //     title: '',
-  //     Component: Signupstep1,
-  // },
+  {
+    name: "Accessibility",
+    Component: Accessibility,
+    title: "Accessibility",
+  },
 
-  // {
-  //     name: 'Signupstep1Verify',
-  //     title: 'Verification',
-  //     Component: Signupstep1Verify,
-  // },
-  // {
-  //     name: 'Signupstep3',
-  //     title: 'Step two',
-  //     Component: Signupstep3,
-  // },
+  {
+    name: "SelectRoom",
+    Component: SelectRoom,
+    title: " ",
+  },
 
-  // {
-  //     name: 'Termcondition',
-  //     title: 'terms & conditions',
-  //     Component: Termcondition,
-  // },
+  {
+    name: "ProfileProgramBenefits",
+    Component: ProfileProgramBenefits,
+    title: "Program Benefits",
+  },
 
-  // {
-  //     name: 'ProfileRoomPreferencebedtype',
-  //     Component: ProfileRoomPreferencebedtype,
-  //     title: 'Bed Type',
-  // },
-  // {
-  //     name: 'ProfileFavorite',
-  //     Component: ProfileFavorite,
-  //     title: 'Favorite',
-  // },
-  // ,
-  // {
-  //     name: 'UpcommingReservationcheckin2',
-  //     title: 'Check in',
-  //     Component: UpcommingReservationcheckin2,
-  // },
+  {
+    name: "InRoomService2",
+    Component: InRoomService2,
+    title: "Bath Amenties",
+  },
 
-  // {
-  //     name: 'Forgotpassword1',
-  //     title: 'Forgot password',
-  //     Component: Forgotpassword1,
-  // },
+  {
+    name: "Dates2",
+    Component: Dates2,
+    isDarkMode: true,
+    title: "",
+  },
 
-  // {
-  //     name: 'HotelPhotoGallery',
-  //     title: 'Gallery',
-  //     Component: HotelPhotoGallery,
-  // },
+  {
+    name: "Onboarding",
+    title: "",
+    Component: Onboarding,
+    options: {
+      headerShown: false,
+    },
+  },
 
-  // {
-  //     name: 'Amentities',
-  //     Component: Amentities,
-  // },
-  // {
-  //     name: 'ChatPage',
-  //     Component: ChatPage,
-  //     title: 'Chat',
-  // },
-  // {
-  //     name: 'ChatBotPage',
-  //     Component: ChatBotPage,
-  //     title: 'Make A Reservation',
-  // },
-  // {
-  //     name:'LoadingPage',
-  //     Component: LoadingPage,
-  //     title:''
-  // }
+  {
+    name: "Dinnings",
+    title: "dinning",
+    Component: Dinnings,
+  },
+
+  {
+    name: "NavigateToMyRoom2",
+    title: "Navigate To My Room",
+    Component: NavigateToMyRoom2,
+  },
+
+  {
+    name: "Signupstep1",
+    title: "",
+    Component: Signupstep1,
+  },
+
+  {
+    name: "Signupstep1Verify",
+    title: "Verification",
+    Component: Signupstep1Verify,
+  },
+  {
+    name: "Signupstep3",
+    title: "Step two",
+    Component: Signupstep3,
+  },
+
+  {
+    name: "Termcondition",
+    title: "terms & conditions",
+    Component: Termcondition,
+  },
+
+  {
+    name: "ProfileRoomPreferencebedtype",
+    Component: ProfileRoomPreferencebedtype,
+    title: "Bed Type",
+  },
+  {
+    name: "ProfileFavorite",
+    Component: ProfileFavorite,
+    title: "Favorite",
+  },
+  ,
+  {
+    name: "UpcommingReservationcheckin2",
+    title: "Check in",
+    Component: UpcommingReservationcheckin2,
+  },
+
+  {
+    name: "Forgotpassword1",
+    title: "Forgot password",
+    Component: Forgotpassword1,
+  },
+
+  {
+    name: "HotelPhotoGallery",
+    title: "Gallery",
+    Component: HotelPhotoGallery,
+  },
+
+  {
+    name: "Amentities",
+    Component: Amentities,
+  },
+  {
+    name: "ChatPage",
+    Component: ChatPage,
+    title: "Chat",
+  },
+  {
+    name: "ChatBotPage",
+    Component: ChatBotPage,
+    title: "Make A Reservation",
+  },
+  {
+    name: "LoadingPage",
+    Component: LoadingPage,
+    title: "",
+  },
 ];
 
 const LONG_NBAR_HEIGHT = 80;

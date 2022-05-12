@@ -1,9 +1,9 @@
-import Ionicons from "@expo/vector-icons/Ionicons";
-import MaterialIcons from "@expo/vector-icons/MaterialIcons";
-import MaterialCommunityIcons from "@expo/vector-icons/MaterialCommunityIcons";
+import Ionicons from "react-native-vector-icons/Ionicons";
+import MaterialIcons from "react-native-vector-icons/MaterialIcons";
+import MaterialCommunityIcons from "react-native-vector-icons/MaterialCommunityIcons";
 
 export const IconFallback = (_Name, _Component) => {
-  if (_Component?.hasIcon(_Name)) {
+  if (_Component) {
     return {
       Icon_Name: _Name,
       Icon_Component: _Component,

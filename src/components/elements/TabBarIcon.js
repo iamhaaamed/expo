@@ -1,4 +1,4 @@
-import MaterialCommunityIcon from "@expo/vector-icons/MaterialCommunityIcons";
+import MaterialCommunityIcon from "react-native-vector-icons/MaterialCommunityIcons";
 import React from "react";
 
 /**
