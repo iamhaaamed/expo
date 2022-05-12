@@ -1,9 +1,9 @@
 import GraphQlClient from "GraphQl/GraphQlClient";
 import { useQuery, useMutation, useInfiniteQuery } from "react-query";
-//import GraphQlClient from "src/GraphQl/GraphQlClient";
+
 import {
     USER_UPDATE_PROFILE,
-} from "src/GraphQl/User/Mutations";
+} from "GraphQl/User/Mutations";
 const PAGE_SIZE = 10;
 const userUpdateProfile = () => {
     return useMutation(async ({ userInput, userId }) => {

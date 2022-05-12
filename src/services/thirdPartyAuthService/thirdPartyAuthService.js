@@ -99,7 +99,7 @@ class ThirdPartyAuthService {
       };
     }
   };
-  loginWithTwitter = async ()=>{
+  loginWithTwitter = async () => {
     try {
       firebaseAuthService.signOut();
       const { accessToken, authTokenSecret } =

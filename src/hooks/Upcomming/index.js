@@ -1,7 +1,7 @@
 import { UPCOMMING_RESERVATION } from 'GraphQl/Upcomming/Queries';
 import { BOOKING_CHECKIN } from 'GraphQl/Upcomming/Mutations';
 import { useInfiniteQuery, useMutation } from 'react-query';
-import GraphQlClient from 'src/GraphQl/GraphQlClient';
+import GraphQlClient from 'GraphQl/GraphQlClient';
 const PAGE_SIZE = 10;
 
 const useUpcommingReservation = ({ userId }) => {

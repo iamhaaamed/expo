@@ -1,7 +1,7 @@
 import { USER_GET_MESSAGE } from 'GraphQl/Chat/Queries';
 import { INSER_MESSAGE } from 'GraphQl/Chat/Mutations';
 import { useInfiniteQuery, useMutation, useQueryClient } from 'react-query';
-import GraphQlClient from 'src/GraphQl/GraphQlClient';
+import GraphQlClient from 'GraphQl/GraphQlClient';
 const PAGE_SIZE = 50;
 const useGetMessages = ({ userId }) => {
     return useInfiniteQuery(

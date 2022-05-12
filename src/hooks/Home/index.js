@@ -1,5 +1,5 @@
 import { useQuery, useMutation, useInfiniteQuery } from "react-query";
-import GraphQlClient from "src/GraphQl/GraphQlClient";
+import GraphQlClient from "GraphQl/GraphQlClient";
 import {
     GET_CURRENT_HOTEL,
     GET_MY_ORDER_DINNING,
@@ -9,7 +9,7 @@ import {
     HOTEL_GET_RATINGS,
     HOTEL_GET_COMMENTS,
     HOTEL_GET_COMMENTS_RATES,
-} from "src/GraphQl/Home/Queries";
+} from "GraphQl/Home/Queries";
 import {
     BOOKING_RESERVING_DINNING,
     CREATE_SERVICE_REQUEST,
@@ -17,7 +17,7 @@ import {
     BOOKING_CREATE_DINNING_PAYMENT2,
     HOTEL_INSERT_RATE,
     HOTEL_INSERT_COMMENT,
-} from "src/GraphQl/Home/Mutations";
+} from "GraphQl/Home/Mutations";
 const PAGE_SIZE = 10;
 const useCurrentHotel = ({ userId }) => {
     return useQuery(

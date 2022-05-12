@@ -1,13 +1,14 @@
 import { MButton } from "components/common";
 import { COLORS } from "constants/common";
 import GraphQlClient from "GraphQl/GraphQlClient";
-import { useSignIn, useSignUp } from "hooks/Auth";
+import { useSignUp, useSignIn } from "hooks/Auth";
 import useTheme from "hooks/useTheme";
 import React, { useState } from "react";
 import { StyleSheet, View } from "react-native";
 import MaterialCommunityIcons from "react-native-vector-icons/MaterialCommunityIcons";
 import thirdPartyAuthService from "services/thirdPartyAuthService/thirdPartyAuthService";
 import { StoreData } from "utils";
+import { async } from "validate.js";
 
 const SectionRowSocialCenter = (props) => {
   const { style, navigation, signUp, signIn } = props;
@@ -97,12 +98,14 @@ const SectionRowSocialCenter = (props) => {
     }
   };
   const TwitterSignIn = async () => {
-    const { firebaseIdToken, success } =
-      await thirdPartyAuthService.loginWithTwitter();
-    if (success) {
-      if (signUp) createUserWithSocialSignIn(firebaseIdToken);
-      else createUserWithSocialSignUp(firebaseIdToken);
-    }
+    // const {
+    //     firebaseIdToken,
+    //     success,
+    // } = await thirdPartyAuthService.io.apsy.genushotel();
+    // if (success) {
+    //     if (signUp) createUserWithSocialSignIn(firebaseIdToken);
+    //     else createUserWithSocialSignUp(firebaseIdToken);
+    // }
   };
 
   return (

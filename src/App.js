@@ -1,28 +1,25 @@
+// import { Settings } from 'react-native-fbsdk-next';
+import auth from "@react-native-firebase/auth";
+import { GoogleSignin } from "@react-native-google-signin/google-signin";
 import { createDrawerNavigator } from "@react-navigation/drawer";
 import { NavigationContainer } from "@react-navigation/native";
-// import MDrawer from "components/common/MDrawer";
-import { DrawerContent, drawerStyle } from "components/Screen/Menu";
-
-import { NavbarContext, ThemeContext } from "components/contexts";
-import React, { useState, useEffect, useCallback } from "react";
-import { GoogleSignin } from "@react-native-google-signin/google-signin";
-
+import React, { useCallback, useEffect, useState } from "react";
 import { LogBox } from "react-native";
 import FlashMessage, { showMessage } from "react-native-flash-message";
 import { enableScreens } from "react-native-screens";
-import { RootNavigator } from "services/navigation";
 import {
   MutationCache,
   QueryCache,
   QueryClient,
   QueryClientProvider,
 } from "react-query";
+import { NavbarContext, ThemeContext } from "components/contexts";
+import { drawerStyle } from "components/Screen/Menu";
 import GraphQlClient from "GraphQl/GraphQlClient";
-import { StoreData, GetData } from "utils";
-import { Google_Config } from "values/Google_Config1";
-// import { Settings } from 'react-native-fbsdk-next';
-import auth from "@react-native-firebase/auth";
+import { RootNavigator } from "services/navigation";
 import useUserSpeechProfile from "store/speechProfile";
+import { GetData, StoreData } from "utils";
+import { Google_Config } from "values/Google_Config1";
 import { removeProfileId } from "verifySpeech";
 
 LogBox.ignoreAllLogs();

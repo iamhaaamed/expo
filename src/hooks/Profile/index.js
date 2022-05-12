@@ -1,9 +1,9 @@
 import { useQuery, useMutation, useInfiniteQuery } from "react-query";
-import GraphQlClient from "src/GraphQl/GraphQlClient";
+import GraphQlClient from "GraphQl/GraphQlClient";
 import {
     GET_USER_FAVORITES,
     GET_HISTORY_BOOKING,
-} from "src/GraphQl/Profile/Queries";
+} from "GraphQl/Profile/Queries";
 const PAGE_SIZE = 10;
 const useUserFavorites = ({ userId, isFav }) => {
     return useInfiniteQuery(
